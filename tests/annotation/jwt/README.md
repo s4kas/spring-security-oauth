@@ -14,7 +14,8 @@ a token correctly).
 The `BksTokenGranter` is responsible for retrieving the bks token and calling 
 the authenticationManager to try to authenticate the request.
 
-Usage examples:
+* Usage examples:
+
 User/Pass authentication in a password flow/grant type
 ```
 curl -X POST -d 'grant_type=password&client_id=my-client-with-secret&client_secret=secret&username=user&password=password' 'http://localhost:8080/oauth/token'
